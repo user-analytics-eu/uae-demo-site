@@ -26,7 +26,7 @@ export const StoryPage = () => {
           </motion.div>
           <div className="relative aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=1000" 
+              src="photo-1555507036-ab1f4038808a.avif" 
               alt="Old Bakery" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"

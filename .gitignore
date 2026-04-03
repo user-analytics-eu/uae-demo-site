@@ -1,1 +1,5 @@
 node_modules/
+nata-hero-video.mp4
+.env
+dist
+openapi.json

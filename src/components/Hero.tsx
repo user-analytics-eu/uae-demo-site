@@ -72,11 +72,12 @@ const Hero = ({ onNavigate }: { onNavigate: (page: string) => void }) => {
               transition={{ delay: 0.25 }}
               className="w-full h-56 md:h-[520px] rounded-xl overflow-hidden shadow-2xl bg-stone-800"
             >
-              <img
-                src="https://images.unsplash.com/photo-1598233847491-f0607be1b640?auto=format&fit=crop&q=80&w=1200"
-                alt="Assortment of Portuguese pastries"
+              <video
+                src="/nata-hero-video-compressed.mp4"
+                data-sa-video-name="nata_hero_video"
+                title="nata_hero_video"
                 className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
+                controls
               />
             </motion.div>
           </div>

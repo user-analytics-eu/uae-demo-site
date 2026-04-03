@@ -190,19 +190,11 @@ export default function App() {
                   className="relative aspect-square rounded-[3rem] overflow-hidden shadow-2xl"
                 >
                   <img 
-                    src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=1000" 
+                    src="photo-1555507036-ab1f4038808a.avif" 
                     alt="Bakery Interior" 
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 to-transparent flex items-end p-12">
-                    <div className="flex items-center gap-4">
-                      <div className="w-16 h-16 rounded-full border-2 border-white flex items-center justify-center">
-                        <Play className="w-6 h-6 fill-current" />
-                      </div>
-                      <span className="font-bold text-xl">Watch the Process</span>
-                    </div>
-                  </div>
                 </motion.div>
               </div>
             </section>
